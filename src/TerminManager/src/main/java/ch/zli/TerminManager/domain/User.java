@@ -27,7 +27,7 @@ public class User {
     private String email;
 
     //@JsonBackReference(value = "Rolle")
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @Column(nullable = false)
     private List<Rolle> rollen;
 
@@ -66,5 +66,21 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public List<Rolle> getRollen() {
+        return rollen;
+    }
+
+    public void setRollen(List<Rolle> rollen) {
+        this.rollen = rollen;
+    }
+
+    public List<Teilnahme> getTeilnahmen() {
+        return teilnahmen;
+    }
+
+    public void setTeilnahmen(List<Teilnahme> teilnahmen) {
+        this.teilnahmen = teilnahmen;
     }
 }

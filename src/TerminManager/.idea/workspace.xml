@@ -2,35 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f30a2cb-9d34-433e-82a4-1187e4884ae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/RolleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TeilnahmeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TerminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/RolleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/TeilnahmeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/TerminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/RolleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/TeilnahmeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/TerminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/createDbSchema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/WebConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Teilnahme.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Teilnahme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Termin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Termin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/punchclock.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/punchclock.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Rolle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Rolle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Teilnahme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Teilnahme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Termin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Termin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,16 +86,23 @@
   <component name="ProjectId" id="1RMwKn2IsxLZvvC9DPSOknHM7I5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/3. Lehrjahr/ÜK/dokushit/m223-punchclockLogin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch.zli.TerminManager.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\projects\TerminManager\src\main\resources" />
       <recent name="C:\Users\admin\projects\TerminManager\src\main\java" />
@@ -129,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TerminManager [bootRun]">
+  <component name="RunManager" selected="Spring Boot.TerminManagerApplication">
     <configuration name="TerminManager [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -174,7 +165,7 @@
       <updated>1569490211245</updated>
       <workItem from="1569669683727" duration="4990000" />
       <workItem from="1569704948322" duration="617000" />
-      <workItem from="1569750253008" duration="5835000" />
+      <workItem from="1569750253008" duration="13886000" />
     </task>
     <servers />
   </component>
@@ -204,5 +195,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TerminManager$TerminManager__bootRun_.ic" NAME="TerminManager [bootRun] Coverage Results" MODIFIED="1569779047498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
