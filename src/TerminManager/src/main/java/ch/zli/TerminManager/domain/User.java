@@ -28,12 +28,12 @@ public class User {
 
     //@JsonBackReference(value = "Rolle")
     @ManyToMany
-    @JoinColumn(nullable = false)
+    @Column(nullable = false)
     private List<Rolle> rollen;
 
     //@JsonBackReference(value = "Teilnahme")
-    @OneToMany
-    @JoinColumn(nullable = false)
+    @OneToMany(mappedBy = "user")
+    @Column(nullable = false)
     private List<Teilnahme> teilnahmen;
 
     public Long getId() {

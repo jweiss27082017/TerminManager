@@ -34,4 +34,44 @@ public class Termin {
     @Column(nullable = false)
     private List<Teilnahme> teilnahmen;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitel() {
+        return Titel;
+    }
+
+    public void setTitel(String titel) {
+        Titel = titel;
+    }
+
+    public String getOrt() {
+        return Ort;
+    }
+
+    public void setOrt(String ort) {
+        Ort = ort;
+    }
+
+    public LocalDateTime getDatum() {
+        return Datum;
+    }
+
+    public void setDatum(LocalDateTime datum) {
+        Datum = datum;
+    }
+
+    public List<Teilnahme> getTeilnahmen() {
+        return teilnahmen;
+    }
+
+    public void setTeilnahmen(List<Teilnahme> teilnahmen) {
+        this.teilnahmen = teilnahmen;
+    }
+
 }

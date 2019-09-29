@@ -14,8 +14,8 @@ public class Rolle {
     private String bezeichnung;
 
     //@JsonBackReference(value = "User")
-    @ManyToMany
-    @JoinColumn(nullable = false)
+    @ManyToMany(mappedBy = "rollen")
+    @Column(nullable = false)
     private List<User> users;
 
     public Long getId() {

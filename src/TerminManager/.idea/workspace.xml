@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f30a2cb-9d34-433e-82a4-1187e4884ae2" name="Default Changelist" comment="" />
+    <list default="true" id="2f30a2cb-9d34-433e-82a4-1187e4884ae2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/RolleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TeilnahmeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TerminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/RolleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/TeilnahmeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/TerminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/RolleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/TeilnahmeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/TerminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/createDbSchema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Teilnahme.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Teilnahme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Termin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Termin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/punchclock.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/punchclock.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Rolle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Rolle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Teilnahme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Teilnahme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Termin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Termin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -29,11 +73,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="TerminManager" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TerminManager" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -41,24 +80,6 @@
                 <item name="TerminManager" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TerminManager" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TerminManager" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TerminManager" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -75,9 +96,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1RMwKn2IsxLZvvC9DPSOknHM7I5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PunchClock-master" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -100,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.TerminManager [bootRun]">
     <configuration name="TerminManager [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -120,6 +149,13 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TerminManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="TerminManager.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch.zli.TerminManager.TerminManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TerminManager [bootRun]" />
@@ -136,8 +172,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569490211245</updated>
+      <workItem from="1569669683727" duration="4990000" />
+      <workItem from="1569704948322" duration="617000" />
+      <workItem from="1569750253008" duration="5835000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

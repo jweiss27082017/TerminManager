@@ -23,8 +23,8 @@ public class UserService {
         return userRepository.findById(id);
     }
 
-    public User createUser(User entry) {
-        return userRepository.saveAndFlush(entry);
+    public User createUser(User user) {
+        return userRepository.saveAndFlush(user);
     }
 
     public void deleteUserById(long id) {
