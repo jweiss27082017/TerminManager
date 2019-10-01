@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f30a2cb-9d34-433e-82a4-1187e4884ae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/WebConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +85,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="G:/3. Lehrjahr/ÜK/dokushit/m223-punchclockLogin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -120,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TerminManagerApplication">
+  <component name="RunManager" selected="Gradle.TerminManager [bootRun]">
     <configuration name="TerminManager [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -166,6 +158,7 @@
       <workItem from="1569669683727" duration="4990000" />
       <workItem from="1569704948322" duration="617000" />
       <workItem from="1569750253008" duration="13886000" />
+      <workItem from="1569861469113" duration="7124000" />
     </task>
     <servers />
   </component>

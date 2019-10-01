@@ -22,14 +22,14 @@ import java.util.stream.Collectors;
 
 public class JwtAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
-    @Autowired
-    private UserService userService;
+
+    private final UserService userService;
 
     private final AuthenticationManager authenticationManager;
 
-    public JwtAuthenticationFilter(AuthenticationManager authenticationManager) {
+    public JwtAuthenticationFilter(AuthenticationManager authenticationManager, UserService userService) {
         this.authenticationManager = authenticationManager;
-
+        this.userService = userService;
         setFilterProcessesUrl(SecurityConstants.AUTH_LOGIN_URL);
     }
 

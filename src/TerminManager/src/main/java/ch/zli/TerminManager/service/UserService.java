@@ -56,12 +56,12 @@ public class UserService {
 
     public User findUserByLogin(String userName) {
 
-        String queryString = "SELECT u FROM User u"
+        String queryString = "SELECT u FROM User as u "
                 + "WHERE u.username LIKE :loginName OR u.email LIKE :loginName";
 
         TypedQuery<User> query = entityManager.createQuery(queryString, User.class);
         query.setParameter("loginName", userName);
-        return (User) query.getResultList();
+        return query.getSingleResult();
     }
 
 }
