@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f30a2cb-9d34-433e-82a4-1187e4884ae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/SignIn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/SignUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/WebController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/TerminManagerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/TerminManagerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthorizationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/SecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/SecurityConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/SecurityConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/WebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/WebConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/RolleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/RolleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/TeilnahmeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/TeilnahmeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/TerminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/TerminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Rolle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Rolle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Teilnahme.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Teilnahme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Termin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Termin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/RolleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/RolleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/TeilnahmeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/TeilnahmeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/TerminRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/TerminRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/RolleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/RolleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/TeilnahmeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/TeilnahmeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/TerminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/TerminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/RolleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/RolleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TeilnahmeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TeilnahmeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TerminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TerminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Rolle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Rolle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Termin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Termin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
