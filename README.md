@@ -6,10 +6,12 @@ Diese Applikation ermöglicht dem Benutzer seine Termine und seine zugehörigen 
 Loslegen
 Folgende Schritte befolgen um loszulegen:
 
-Man braucht für den SQL Server Xampp um auf die MysqlDB zuzugeifen zu können.
+Xampp muss installiert sein für den MySQL Server.
+MySQL Workbench muss installiert sein, damit man auf die DB zugreifen kann.
+
 Sicherstellen, dass JDK 11 installiert ist.
 
 Ins Verzeichnis der Applikation wechseln und über die Kommandozeile mit ./gradlew bootRun oder ./gradlew.bat bootRun starten
-Folgende Dienste stehen während der Ausführung im Profil dev zur Verfügung:
+Folgende Dienste stehen während der Ausführung zur Verfügung:
 
 REST-Schnittstelle der Applikation: http://localhost:8081
