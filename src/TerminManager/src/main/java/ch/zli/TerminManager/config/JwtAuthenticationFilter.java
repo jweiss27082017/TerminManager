@@ -16,6 +16,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import javax.servlet.FilterChain;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -49,6 +50,10 @@ public class JwtAuthenticationFilter extends UsernamePasswordAuthenticationFilte
         ch.zli.TerminManager.domain.User user = userService.findUserByLogin(userSpring.getUsername());
 
         List<Rolle> rollen = user.getRollen();
+        List<String> userRollen = new ArrayList<>();
+        for(Rolle rolle : rollen){
+            userRollen.add(rolle.getBezeichnung());
+        }
 
         var signingKey = SecurityConstants.JWT_SECRET.getBytes();
 
@@ -59,7 +64,7 @@ public class JwtAuthenticationFilter extends UsernamePasswordAuthenticationFilte
                 .setAudience(SecurityConstants.TOKEN_AUDIENCE)
                 .setSubject(user.getUsername())
                 .setExpiration(new Date(System.currentTimeMillis() + 864000000))
-                .claim("rol", rollen)
+                .claim("rol", userRollen)
                 .compact();
 
         response.addHeader(SecurityConstants.TOKEN_HEADER, SecurityConstants.TOKEN_PREFIX + token);

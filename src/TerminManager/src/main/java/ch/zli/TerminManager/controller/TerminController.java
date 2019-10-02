@@ -18,24 +18,28 @@ public class TerminController {
         this.terminService = terminService;
     }
 
+    //Hier werden alle Termine zurückgegeben
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<Termin> getAllTermine() {
         return terminService.findAll();
     }
 
+    //Hier wird ein neur Termin generiert
     @PostMapping("new")
     @ResponseStatus(HttpStatus.CREATED)
     public Termin createTermin(@Valid @RequestBody Termin termin) {
         return terminService.createTermin(termin);
     }
 
+    //Hier wird ein vorhandener Termin gelöscht
     @DeleteMapping("{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteUser(@PathVariable Long id) {
         terminService.deleteTerminById(id);
     }
 
+    //Hier wird ein bestimmter Termin mutiert
     @PutMapping("{id}")
     @ResponseStatus(HttpStatus.OK)
     public Termin updateEntry(@Valid @RequestBody Termin termin, @PathVariable Long id) {

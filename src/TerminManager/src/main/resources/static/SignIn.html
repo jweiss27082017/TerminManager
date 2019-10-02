@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h2>Sing In</h2>
+</div>
+<div>
+    <label>
+        <input id="username" type="text" name="username" placeholder="username">
+    </label>
+</div>
+<div>
+    <label>
+        <input id="password" type="password" name="password" placeholder="password">
+    </label>
+</div>
+<div>
+    <label>
+        <input type="Submit" onclick="signIn()" value="Submit">
+    </label>
+    <script>
+        function signIn() {
+            var data = {
+                username: document.getElementById("username").value,
+                password: document.getElementById("password").value
+            };
+            var url = "http://localhost:8081/login";
+
+            return fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            }).then(function (response) {
+                var authorization = response.headers.get('Authorization');
+                localStorage.setItem('access-token', authorization);
+                return response;
+            }).then(function (response) {
+                if (response.status === 200) {
+                    window.location.href = "Home.html";
+                }
+            });
+        }
+    </script>
+</div>
+</body>
+</html>

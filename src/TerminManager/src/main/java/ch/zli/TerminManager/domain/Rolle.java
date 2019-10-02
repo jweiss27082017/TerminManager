@@ -1,6 +1,7 @@
 package ch.zli.TerminManager.domain;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.util.List;
@@ -16,6 +17,7 @@ public class Rolle {
     //@JsonBackReference(value = "User")
     @ManyToMany(mappedBy = "rollen")
     @Column(nullable = false)
+    @JsonIgnore
     private List<User> users;
 
     public Long getId() {

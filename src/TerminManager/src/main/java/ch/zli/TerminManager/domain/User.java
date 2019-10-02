@@ -1,6 +1,7 @@
 package ch.zli.TerminManager.domain;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
@@ -29,11 +30,13 @@ public class User {
     //@JsonBackReference(value = "Rolle")
     @ManyToMany(fetch = FetchType.EAGER)
     @Column(nullable = false)
+    @JsonIgnore
     private List<Rolle> rollen;
 
     //@JsonBackReference(value = "Teilnahme")
     @OneToMany(mappedBy = "user")
     @Column(nullable = false)
+    @JsonIgnore
     private List<Teilnahme> teilnahmen;
 
     public Long getId() {

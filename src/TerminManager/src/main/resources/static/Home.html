@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h2>Welcome</h2>
+</div>
+<div>
+    <label>
+        <input type="button" onclick="deleteToken()" value="LogOut">
+    </label>
+    <script>
+        function deleteToken() {
+            window.localStorage.removeItem("access-token");
+            window.location.href = "Index.html";
+        }
+    </script>
+</div>
+</body>
+</html>

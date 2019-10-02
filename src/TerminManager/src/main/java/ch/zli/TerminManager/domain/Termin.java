@@ -1,6 +1,7 @@
 package ch.zli.TerminManager.domain;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
@@ -32,6 +33,7 @@ public class Termin {
     //@JsonBackReference(value = "Teilnahme")
     @OneToMany(mappedBy = "termin")
     @Column(nullable = false)
+    @JsonIgnore
     private List<Teilnahme> teilnahmen;
 
     public Long getId() {

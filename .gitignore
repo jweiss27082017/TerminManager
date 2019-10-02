@@ -12,3 +12,41 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+src/TerminManager/src/main/resources/data.sql
+src/TerminManager/src/main/java/ch/zli/TerminManager/domain/User.java
+src/TerminManager/src/main/java/ch/zli/TerminManager/domain/Termin.java
+src/TerminManager/src/main/java/ch/zli/TerminManager/domain/Rolle.java
+src/TerminManager/src/main/java/ch/zli/TerminManager/controller/UserController.java
+src/TerminManager/src/main/java/ch/zli/TerminManager/controller/TerminController.java
+src/TerminManager/src/main/java/ch/zli/TerminManager/controller/TeilnahmeController.java
+src/TerminManager/src/main/java/ch/zli/TerminManager/controller/RolleController.java
+src/TerminManager/src/main/java/ch/zli/TerminManager/config/SecurityConfiguration.java
+src/TerminManager/src/main/java/ch/zli/TerminManager/config/JwtAuthenticationFilter.java
+src/TerminManager/build/tmp/bootJar/MANIFEST.MF
+src/TerminManager/build/resources/main/static/Index.html
+src/TerminManager/build/libs/TerminManager-0.0.1-SNAPSHOT.jar
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/TerminManagerApplication.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/service/UserService.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/service/TerminService.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/service/TeilnahmeService.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/service/RolleService.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/repositories/UserRepository.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/repositories/TerminRepository.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/repositories/TeilnahmeRepository.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/repositories/RolleRepository.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/domain/User.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/domain/Termin.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/domain/Teilnahme.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/domain/Rolle.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/controller/UserController.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/controller/testController.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/controller/TerminController.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/controller/TeilnahmeController.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/controller/RolleController.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/config/WebConfiguration.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/config/SecurityConstants.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/config/SecurityConfiguration.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthorizationFilter.class
+src/TerminManager/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthenticationFilter.class
+src/TerminManager/.idea/workspace.xml
+src/TerminManager/.idea/misc.xml

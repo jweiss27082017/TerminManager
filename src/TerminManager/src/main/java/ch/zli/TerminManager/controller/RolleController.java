@@ -19,24 +19,28 @@ public class RolleController {
         this.rolleService = rolleService;
     }
 
+    //Hier werden alle Rollen zurückgegeben
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<Rolle> getAllRolle() {
         return rolleService.findAll();
     }
 
+    //Hier wird eine neue Rolle generiert
     @PostMapping("new")
     @ResponseStatus(HttpStatus.CREATED)
     public Rolle createRolle(@Valid @RequestBody Rolle rolle) {
         return rolleService.createRolle(rolle);
     }
 
+    //Hier wird eine vorhandene Rolle gelöscht
     @DeleteMapping("{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteRolle(@PathVariable Long id) {
         rolleService.deleteRolleById(id);
     }
 
+    //Hier wird eine bestimmte Rolle mutiert
     @PutMapping("{id}")
     @ResponseStatus(HttpStatus.OK)
     public Rolle updateRolle(@Valid @RequestBody Rolle rolle, @PathVariable Long id) {

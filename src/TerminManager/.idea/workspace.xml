@@ -2,11 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f30a2cb-9d34-433e-82a4-1187e4884ae2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/SignIn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/SignUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/TerminManagerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/TerminManagerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/JwtAuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/SecurityConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/SecurityConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/WebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/config/WebConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/RolleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/RolleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/TeilnahmeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/TeilnahmeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/TerminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/TerminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Rolle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Rolle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Teilnahme.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Teilnahme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Termin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/Termin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/RolleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/RolleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/TeilnahmeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/TeilnahmeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/TerminRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/TerminRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/repositories/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/RolleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/RolleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/TeilnahmeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/TeilnahmeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/TerminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/TerminService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ch/zli/TerminManager/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/JwtAuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/RolleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/RolleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TeilnahmeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TeilnahmeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TerminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/TerminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Rolle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Rolle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Termin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/Termin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +90,12 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TerminManager" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -85,17 +124,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\GitHub\TerminManager\src\TerminManager\src\main\resources\static" />
+      <recent name="C:\Users\admin\Documents\GitHub\TerminManager\src\TerminManager\src\main\java\ch\zli\TerminManager\view" />
+      <recent name="C:\Users\admin\Documents\GitHub\TerminManager\src\TerminManager\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch.zli.TerminManager.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\GitHub\TerminManager\src\TerminManager\src\main\resources\static" />
+      <recent name="C:\Users\admin\Documents\GitHub\TerminManager\src\TerminManager\src\main\java\ch\zli\TerminManager\view" />
       <recent name="C:\Users\admin\projects\TerminManager\src\main\resources" />
       <recent name="C:\Users\admin\projects\TerminManager\src\main\java" />
     </key>
@@ -113,6 +159,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.TerminManager [bootRun]">
+    <configuration name="TerminManager [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TerminManager [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -132,6 +197,63 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TerminManager [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TerminManager [buildNeeded]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildNeeded" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TerminManager [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TerminManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="TerminManager.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ch.zli.TerminManager.TerminManagerApplication" />
@@ -142,6 +264,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TerminManager [bootRun]" />
+        <item itemvalue="Gradle.TerminManager [build]" />
+        <item itemvalue="Gradle.TerminManager [buildDependents]" />
+        <item itemvalue="Gradle.TerminManager [buildNeeded]" />
+        <item itemvalue="Gradle.TerminManager [bootJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +309,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ch/zli/TerminManager/controller/UserController.java</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
